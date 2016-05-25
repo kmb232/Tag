@@ -18,8 +18,8 @@ skip_content_of_this_tags_re = re.compile("^<(script|style|pre|code)(>| )", re.I
 trim_outter_left  = "abbr|acronym|dfn|em|strong|b|i|u|font|del|ins|sub|sup".split('|')
 trim_outter_right = "".split('|')
 
-trim_inner_left   = "abbr|acronym|dfn|em|strong|b|i|u|font|del|ins|sub|sup|title".split('|')
-trim_inner_right  = "abbr|acronym|dfn|em|strong|b|i|u|font|del|ins|sub|sup|title".split('|')
+trim_inner_left   = "abbr|acronym|dfn|em|strong|b|i|u|font|del|ins|sub|sup|title|p|h1|h2|h3|h4|h5|h6|li|td|a".split('|')
+trim_inner_right  = "abbr|acronym|dfn|em|strong|b|i|u|font|del|ins|sub|sup|title|a".split('|')
 
 def TagIndentBlock(data, view):
 
